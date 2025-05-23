@@ -1,0 +1,5 @@
+[tasks.check_and_run]
+script = [
+    "cargo clippy -- -W clippy::all -W clippy::pedantic -W clippy::nursery",
+    "cargo run"
+]
