@@ -39,3 +39,13 @@ If you prefer running steps individually:
 - `src/`
   - `main.rs`: Application entry point
   - `persistence/key_value_store.rs`: The `KeyValueStore` implementation
+
+## Tasks
+- [ ] Add tests
+- [ ] Add logging
+- [ ] Add persistence via append only log written to disk
+- [ ] Add expriation to keys via time to live
+- [ ] Add CLI interface
+- [ ] Add thread-safe access
+- [ ] Add HTTP interface
+- [ ] Add LRU cache capability
